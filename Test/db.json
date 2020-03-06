@@ -1,0 +1,46 @@
+{
+    "product": [
+    {
+        "Name": "Máy Ảnh Canon 750D + Lens 18-55 IS STM",
+        "Image": "1.jpg",
+        "Price": "$2,000",
+		"Discount": "-10%",
+		"priceDiscount": "$1,800"
+    },
+    {
+        "Name": "Máy Ảnh Canon 800D + Lens 18-55mm IS STM ",
+        "Image": "2.jpg",
+        "Price": "$3,000",
+		"Discount": "-10%",
+		"priceDiscount": "$2,700"
+    },
+     {
+        "Name": "Canon M10 KIT 15-45mm",
+        "Image": "3.jpg",
+        "Price": "$976",
+		"Discount": "-10%",
+		"priceDiscount": "$879"
+    },
+     {
+        "Name": "Máy Ảnh Canon EOS M50 + Kit 15-45mm",
+        "Image": "4.jpg",
+        "Price": "$850",
+		"Discount": "-10%",
+		"priceDiscount": "$765"
+    },
+    {
+        "Name": "Máy Ảnh Canon EOS M50 + Kit 15-45mm",
+        "Image": "2.jpg",
+        "Price": "$850",
+        "Discount": "-10%",
+        "priceDiscount": "$765"
+    },
+    {
+        "Name": "Máy Ảnh Canon EOS M50 + Kit 15-45mm",
+        "Image": "3.jpg",
+        "Price": "$850",
+        "Discount": "-10%",
+        "priceDiscount": "$765"
+    }
+    ]
+}

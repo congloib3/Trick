@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>Document</title>
+  <style>
+    .w-20 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+      flex: 0 0 20%;
+      max-width: 19%;
+      display: inline-table;
+
+    }
+
+    @media (min-width: 576px) {
+      .w-sm-20 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .w-md-20 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .w-lg-20 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .w-xl-20 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+      }
+    }
+
+    section.modules .borderimg {
+      border: 1px solid #1aa0dd;
+      border-radius: 50%;
+      width: 70px;
+      line-height: 68px;
+      background: white;
+      margin-bottom: 20px;
+      left: 33%;
+      position: relative;
+      
+    }
+    .animated{
+      animation: moveInRight 1s ease-out;
+    }
+    section.modules img {
+      width: 60%;
+    }
+
+    section.modules {
+      letter-spacing: 1px;
+      text-align: center;
+    }
+
+    section.modules {
+      padding: 80px 0;
+    }
+
+    hr.amazing-hr {
+      width: 12%;
+    }
+
+    .best hr,
+    hr.amazing-hr {
+      border-top: 1px solid #179FDC;
+    }
+
+    @keyframes moveInRight {
+      0% {
+        -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0;
+      }
+
+      40% {
+        -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+      }
+
+      60% {
+        -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+        opacity: 1;
+      }
+
+      80% {
+        -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+      }
+
+      100% {
+        -webkit-transform: perspective(400px);
+        transform: perspective(400px);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  
+  <section class="modules col-xs-12">
+    <div class="container">
+      <div class="col-md-12 col-sm-12 col-xs-12 bottom text-center">
+        <h1 i18n="index.section3.title">Một tài khoản kết nối với thị trường toàn cầu</h1>
+        <hr class="amazing-hr" style="margin-bottom: 50px;">
+      </div>
+      <div class="row my-4">
+        <div class="col">
+          <div class="col-md-12">
+            <div class=" col col 1 w-20 show-on-scroll">
+              <div class="borderimg"><img src="https://www.unforex.vn/images/labor.png" title="forex" alt="外汇"></div>
+            </div>
+            <div class="col col2 w-20 show-on-scroll">
+              <div class="borderimg">
+                <img src="https://www.unforex.vn/images/zhishu.png" title="Manage Suppliers" alt="指数">
+              </div>
+            </div>
+            <div class="col col3 w-20 show-on-scroll">
+              <div class="borderimg">
+                <img src="https://www.unforex.vn/images/oil.png" title="oil" alt="Manage Daily Task">
+              </div>
+            </div>
+            <div class="col col4 w-20 show-on-scroll">
+              <div class="borderimg">
+                <img src="https://www.unforex.vn/images/golden.png" title="golden " alt="Manage Daily Reports">
+              </div>
+            </div>
+            <div class="col col5 w-20 show-on-scroll">
+              <div class="borderimg">
+                <img src="https://www.unforex.vn/images/bit.png" title="Project Statistical Report" alt="bit">
+              </div>
+            </div>
+            <div class="col col1 w-20 show-on-scroll">
+              Ngoại hối
+            </div>
+            <div class="col col2 w-20 show-on-scroll">
+              Chỉ số CFD
+            </div>
+            <div class="col col3 w-20 show-on-scroll">
+              Dầu thô
+            </div>
+            <div class="col col4 w-20 show-on-scroll">
+              Vàng/Bạc
+            </div>
+            <div class="col col5 w-20 show-on-scroll">
+              Tiền kỹ thuật số
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    // Detect request animation frame
+var scroll = window.requestAnimationFrame ||
+         // IE Fallback
+         function(callback){ window.setTimeout(callback, 1000/60)};
+var elementsToShow = document.querySelectorAll('.show-on-scroll'); 
+
+function loop() {
+
+Array.prototype.forEach.call(elementsToShow, function(element){
+  if (isElementInViewport(element)) {
+    element.classList.add('animated');
+  } else {
+    element.classList.remove('animated');
+  }
+});
+
+scroll(loop);
+}
+
+// Call the loop for the first time
+loop();
+
+// Helper function from: http://stackoverflow.com/a/7557433/274826
+function isElementInViewport(el) {
+// special bonus for those using jQuery
+if (typeof jQuery === "function" && el instanceof jQuery) {
+el = el[0];
+}
+var rect = el.getBoundingClientRect();
+return (
+(rect.top <= 0
+  && rect.bottom >= 0)
+||
+(rect.bottom >= (window.innerHeight || document.documentElement.clientHeight) &&
+  rect.top <= (window.innerHeight || document.documentElement.clientHeight))
+||
+(rect.top >= 0 &&
+  rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
+);
+}
+  </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

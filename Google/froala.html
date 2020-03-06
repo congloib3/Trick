@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>WYSIWYG</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/froala-editor@3.1.0/css/froala_editor.pkgd.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/froala-editor@3.1.0/js/froala_editor.pkgd.min.js"></script>
+    <link rel="stylesheet" href="./css/froala_style.min.css" type="text/css">
+    <script src="./js/vi.js"></script>
+  </head>
+  <body>
+  <div id="edit"></div>
+
+    <script>
+    var editor = new FroalaEditor('#edit')
+    $(function() {
+    $('div#edit').froalaEditor({
+      // Set the language code.
+      language: 'vi'
+    })
+  });
+    </script>
+  </body>
+</html>
